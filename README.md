@@ -1,5 +1,4 @@
-# outils
-[![npm](https://img.shields.io/npm/v/biubiu-utils.svg)](https://www.npmjs.com/package/biubiu-utils)
+# biubiu-utils
 
 前端工具库  
 
