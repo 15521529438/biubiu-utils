@@ -1,10 +1,5 @@
 # biubiu-utils
-
-<<<<<<< HEAD
 前端工具库
-=======
-前端工具库  
->>>>>>> 8feaa7671e37e823b3166917755bcbc2570b33b3
 
 > 目的：减少重复的需找修改一些代码
 
@@ -12,11 +7,8 @@
 
 ## 安装使用
 
-<<<<<<< HEAD
-1. 直接下载`min`目录下的[biubiu-utils.min.js](https://github.com/15521529438/biubiu-utils/blob/master/min/biubiuUtils.min.js)使用，支持UMD通用模块规范  -
-=======
-1. 直接下载`min`目录下的[biubiu-utils.min.js](https://github.com/15521529438/biubiu-utils/blob/master/min/outils.min.js)使用，支持UMD通用模块规范  -
->>>>>>> 8feaa7671e37e823b3166917755bcbc2570b33b3
+1. 直接下载`min`目录下的[biubiu-utils.min.js](https://github.com/15521529438/biubiu-utils/blob/master/min/biubiuUtils.min.js)使用，支持UMD通用模块规范
+
 2. 使用npm安装
 
 ### 浏览器:
