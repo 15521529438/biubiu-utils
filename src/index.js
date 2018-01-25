@@ -31,6 +31,8 @@ const isEmptyObject = require('./object/isEmptyObject')
 const randomColor = require('./random/randomColor')
 const randomNum = require('./random/randomNum')
 
+const codeDegree = require('./regexp/codeDegree')
+const isDateStyle = require('./regexp/isDateStyle')
 const isEmail = require('./regexp/isEmail')
 const isIdCard = require('./regexp/isIdCard')
 const isPhoneNum = require('./regexp/isPhoneNum')
@@ -79,6 +81,8 @@ module.exports = {
     randomColor,
     randomNum,
 
+    codeDegree,
+    isDateStyle,
     isEmail,
     isIdCard,
     isPhoneNum,

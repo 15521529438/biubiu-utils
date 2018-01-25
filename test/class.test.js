@@ -7,9 +7,9 @@ describe('Class API:', function () {
             document.body.appendChild(div)
             $ele = document.querySelector('#J_addClass')
         })
-        it(`outils.addClass($ele, 'test') should return true`, function () {
-            outils.addClass($ele, 'test')
-            assert(outils.hasClass($ele, 'test'))
+        it(`biubiuUtils.addClass($ele, 'test') should return true`, function () {
+            biubiuUtils.addClass($ele, 'test')
+            assert(biubiuUtils.hasClass($ele, 'test'))
         });
         after(function () {
             document.body.removeChild($ele)
@@ -23,10 +23,10 @@ describe('Class API:', function () {
             div.id = 'J_hasClass'
             document.body.appendChild(div)
             $ele = document.querySelector('#J_hasClass')
-            outils.addClass($ele, 'test')
+            biubiuUtils.addClass($ele, 'test')
         })
-        it(`outils.hasClass($ele, 'test') should return true`, function () {
-            assert(outils.hasClass($ele, 'test'))
+        it(`biubiuUtils.hasClass($ele, 'test') should return true`, function () {
+            assert(biubiuUtils.hasClass($ele, 'test'))
         });
         after(function () {
             document.body.removeChild($ele)
@@ -40,11 +40,11 @@ describe('Class API:', function () {
             div.id = 'J_removeClass'
             document.body.appendChild(div)
             $ele = document.querySelector('#J_removeClass')
-            outils.addClass($ele, 'test')
+            biubiuUtils.addClass($ele, 'test')
         })
-        it(`outils.removeClass($ele, 'test') should return false`, function () {
-            outils.removeClass($ele, 'test')
-            assert.notEqual(outils.hasClass($ele, 'test'))
+        it(`biubiuUtils.removeClass($ele, 'test') should return false`, function () {
+            biubiuUtils.removeClass($ele, 'test')
+            assert.notEqual(biubiuUtils.hasClass($ele, 'test'))
         });
         after(function () {
             document.body.removeChild($ele)

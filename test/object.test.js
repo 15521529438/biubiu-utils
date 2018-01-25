@@ -1,6 +1,6 @@
 describe('Object API:', function () {
     describe('#deepClone()', function () {
-        it(`person deepEqual outils.deepClone(person) should return true`, function () {
+        it(`person deepEqual biubiuUtils.deepClone(person) should return true`, function () {
             let person = {
                 name: "user",
                 settings: {
@@ -8,10 +8,10 @@ describe('Object API:', function () {
                     second: [1, 2, 3, 4, 3]
                 }
             }
-            assert.deepEqual(person, outils.deepClone(person))
+            assert.deepEqual(person, biubiuUtils.deepClone(person))
         });
 
-        it(`person === outils.deepClone(person) should return false`, function () {
+        it(`person === biubiuUtils.deepClone(person) should return false`, function () {
             let person = {
                 name: "user",
                 settings: {
@@ -19,23 +19,23 @@ describe('Object API:', function () {
                     second: [1, 2, 3, 4, 3]
                 }
             }
-            assert.notEqual(person, outils.deepClone(person))
+            assert.notEqual(person, biubiuUtils.deepClone(person))
         });
     });
 
     describe('#isEmptyObject()', function () {
-        it(`outils.isEmptyObject({}) should return true`, function () {
-            assert(outils.deepClone({}))
+        it(`biubiuUtils.isEmptyObject({}) should return true`, function () {
+            assert(biubiuUtils.deepClone({}))
         });
 
-        it(`outils.isEmptyObject({ one: 1 }) should return false`, function () {
-            assert.notEqual(outils.isEmptyObject({
+        it(`biubiuUtils.isEmptyObject({ one: 1 }) should return false`, function () {
+            assert.notEqual(biubiuUtils.isEmptyObject({
                 one: 1
             }))
         });
 
-        it(`outils.isEmptyObject([]) should return false`, function () {
-            assert.notEqual(outils.isEmptyObject([]))
+        it(`biubiuUtils.isEmptyObject([]) should return false`, function () {
+            assert.notEqual(biubiuUtils.isEmptyObject([]))
         });
     });
 })

@@ -1,15 +1,15 @@
 describe('Device API:', function () {
     describe('#getExplore()', function () {
-        it(`outils.getExplore() should return "Chrome"`, function () {
-            console.log(`Explore:${outils.getExplore()}`)
-            assert(/^Chrome:/.test(outils.getExplore()))
+        it(`biubiuUtils.getExplore() should return "Chrome"`, function () {
+            console.log(`Explore:${biubiuUtils.getExplore()}`)
+            assert(/^Chrome:/.test(biubiuUtils.getExplore()))
         });
     });
 
     describe('#getOS()', function () {
-        it(`outils.getOS() should return "windows"`, function () {
-            console.log(`OS:${outils.getOS()}`)
-            assert(outils.getOS() === 'windows' || outils.getOS() === 'MacOSX' || outils.getOS() === 'linux')
+        it(`biubiuUtils.getOS() should return "windows"`, function () {
+            console.log(`OS:${biubiuUtils.getOS()}`)
+            assert(biubiuUtils.getOS() === 'windows' || biubiuUtils.getOS() === 'MacOSX' || biubiuUtils.getOS() === 'linux')
         });
     });
 });
