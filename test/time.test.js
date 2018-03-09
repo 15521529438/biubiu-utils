@@ -51,4 +51,10 @@ describe('Time API:', function () {
             assert(biubiuUtils.isSameDay(new Date(), new Date(new Date().getTime() - 86400000)) === false)
         });
     });
+
+    describe('#obtainDate()', function () {
+        it(`biubiuUtils.obtainDate('Fri Mar 09 2018 14:42:17 GMT+0800 (中国标准时间)') should return '2018-3-9 14:42:17'`, function () {
+            assert(biubiuUtils.obtainDate('Fri Mar 09 2018 14:42:17 GMT+0800 (中国标准时间)') === '2018-3-9 14:42:17')
+        });
+    });
 })

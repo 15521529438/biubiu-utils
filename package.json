@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/proYang/outils.git"
+    "url": "git+https://github.com/15521529438/biubiu-utils.git"
   },
   "keywords": [
     "util",
     "tool",
     "common-util"
   ],
-  "author": "SlaneYang",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",

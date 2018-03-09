@@ -2,6 +2,8 @@
  * @desc webpack打包入口文件
  */
 const arrayEqual = require('./array/arrayEqual')
+const isArray = require('./array/isArray')
+const changeReArr = require('./array/changeReArr')
 
 const addClass = require('./class/addClass')
 const hasClass = require('./class/hasClass')
@@ -25,6 +27,8 @@ const throttle = require('./function/throttle')
 
 const getKeyName = require('./keycode/getKeyName')
 
+const verify = require('./number/verify')
+
 const deepClone = require('./object/deepClone')
 const isEmptyObject = require('./object/isEmptyObject')
 
@@ -45,6 +49,7 @@ const isSupportWebP = require('./support/isSupportWebP')
 const formatPassTime = require('./time/formatPassTime')
 const formatRemainTime = require('./time/formatRemainTime')
 const isSameDay = require('./time/isSameDay')
+const obtainDate = require('./time/obtainDate')
 
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
@@ -52,6 +57,8 @@ const stringfyQueryString = require('./url/stringfyQueryString')
 
 module.exports = {
     arrayEqual,
+    isArray,
+    changeReArr,
 
     addClass,
     hasClass,
@@ -75,6 +82,8 @@ module.exports = {
 
     getKeyName,
 
+    verify,
+
     deepClone,
     isEmptyObject,
 
@@ -95,6 +104,7 @@ module.exports = {
     formatPassTime,
     formatRemainTime,
     isSameDay,
+    obtainDate,
 
     parseQueryString,
     stringfyQueryString,

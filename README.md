@@ -44,6 +44,8 @@ const OS = getOS()
 
 ### Array
 #### &emsp;&emsp;[arrayEqual][arrayEqual]&emsp;&emsp;判断两个数组是否相等
+#### &emsp;&emsp;[isArray][isArray]&emsp;&emsp;判断是否是数组
+#### &emsp;&emsp;[changeReArr][changeReArr]&emsp;&emsp;数组去重
 
 ### Class
 #### &emsp;&emsp;[addClass][addClass]&emsp;&emsp;为元素添加class
@@ -73,6 +75,9 @@ const OS = getOS()
 ### Keycode
 #### &emsp;&emsp;[getKeyName][getKeyName]&emsp;&emsp;根据keycode获得键名
 
+### number
+#### &emsp;&emsp;[verify][verify]&emsp;&emsp;生成数字验证码(参数控制多少位)
+
 ### Object
 #### &emsp;&emsp;[deepClone][deepClone]&emsp;&emsp;深拷贝，支持常见类型
 #### &emsp;&emsp;[isEmptyObject][isEmptyObject]&emsp;&emsp;判断Object是否为空
@@ -100,6 +105,7 @@ const OS = getOS()
 #### &emsp;&emsp;[formatPassTime][formatPassTime]&emsp;&emsp;格式化${startTime}距现在的已过时间
 #### &emsp;&emsp;[formatRemainTime][formatRemainTime]&emsp;&emsp;格式化现在距${endTime}的剩余时间
 #### &emsp;&emsp;[isSameDay][isSameDay]&emsp;&emsp;判断是否为同一天
+#### &emsp;&emsp;[obtainDate][obtainDate]&emsp;&emsp;日期格式化
 
 ### Url
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象

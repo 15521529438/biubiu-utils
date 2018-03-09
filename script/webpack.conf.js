@@ -4,6 +4,7 @@ const path = require('path')
 const pkg = require('../package.json')
 
 const rootPath = path.resolve(__dirname, '../')
+// const rootPath = path.resolve(__dirname, '../dist')
 
 const config = {
     entry: path.resolve(rootPath, 'src', 'index.js'),

@@ -9,6 +9,8 @@ const webpack = require('webpack')
 const config = require('./webpack.conf')
 const pkg = require('../package.json')
 const rootPath = path.resolve(__dirname, '../')
+const rootPath1 = path.resolve(__dirname, '../dist')
+// const rootPath = path.resolve(__dirname, '../dist')
 
 new Promise((resolve, reject) => {
     // 构建全量压缩包
@@ -38,7 +40,8 @@ new Promise((resolve, reject) => {
         if (err) throw (err)
         let folderList = fs.readdirSync(path.resolve(rootPath, 'src'))
         folderList.forEach((item, index) => {
-            copy(`src/${item}/*.js`, rootPath, function (err, files) {
+            // copy(`src/${item}/*.js`, rootPath, function (err, files) {  //修改了替换模块地址
+            copy(`src/${item}/*.js`, rootPath1, function (err, files) {
                 if (err) throw err;
                 if (index === folderList.length - 1) {
                     console.log(chalk.cyan('  Copy complete.\n'))
