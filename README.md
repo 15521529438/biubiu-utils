@@ -110,3 +110,6 @@ const OS = getOS()
 ### Url
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
+
+### clip
+#### &emsp;&emsp;[clip][clip]&emsp;&emsp;这个是一个对象。先定义一个clip对象var clipObj = new clip('container',self)；self为vue实例
