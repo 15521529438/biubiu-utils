@@ -1,14 +1,16 @@
-# files
-*.log
-*.zip
 .DS_Store
-dist
-min
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # folders
 node_modules/*
 coverage/*
 
 # Editor directories and files
-.vscode
 .idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
